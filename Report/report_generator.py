@@ -90,7 +90,7 @@ story.append(Spacer(1, 12))
 # Encoding
 story.append(Paragraph("<b>6. Categorical to Numerical Conversion:</b>", styles['Heading2']))
 story.append(Paragraph("Categorical data like Attrition can be converted using Label Encoding (Yes=1, No=0). "
-                       "Department, JobRole ইত্যাদি One-Hot Encoding এর মাধ্যমে numerical এ রূপান্তর করা যাবে।", styles['Normal']))
+                       "Department, JobRole  One-Hot Encoding numerical", styles['Normal']))
 story.append(Spacer(1, 12))
 
 # Conclusion
@@ -100,4 +100,4 @@ story.append(Paragraph("Dataset", styles['Normal']))
 
 doc.build(story)
 
-print("✅ Final Report Generated: Final_Assignment_Report.pdf")
+print("Final Report Generated: Final_Assignment_Report.pdf")
